@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>HW_8</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="root">
+
+    <button class="btn btn-start">Start new game</button>
+    <button class="btn btn-skip">Skip question</button>
+    <form class="form">
+    <ul class="question">
+    </ul>
+        <input type="submit" value="Sumbit" class="btn btn-submit">
+    </form>
+    <p class="text">Total prize: <span class="total-prize"></span></p>
+    <p class="text">Prize on current round: <span class="current-prize">100</span></p>
+    <p class="final-message-million">Congratulation! You won <span class="total-prize"></span>.</p>
+    <p class="final-message">Game over. Your prize is: <span class="total-prize"></span></p>
+</div>
+
+<script src="js/questions.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>

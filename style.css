@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+#root {
+    padding: 40px;
+    margin: 0 auto;
+}
+
+.form {
+    visibility: hidden;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 4px;
+    background-color: #76cdd8;
+}
+
+.question {
+    margin: 10px;
+    list-style: none;
+    color: #fff;
+}
+
+.question li {
+    padding: 10px;
+    color: #fff;
+}
+
+.btn {
+    padding: 10px 15px;
+    outline: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-left: 20px;
+    background-color:  #14a0c7;
+    color: #fff;
+    border: 1px solid transparent;
+}
+
+.btn:hover {
+    background-color: #80bdff;
+}
+
+.btn-submit,
+
+.text,
+.btn-skip {
+    visibility: hidden;
+}
+
+.final-message,
+.final-message-million {
+    display: none;
+}
